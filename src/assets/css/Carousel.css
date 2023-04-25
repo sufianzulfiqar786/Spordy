@@ -41,7 +41,7 @@ li.slick-active button:before {
 
 .slick-prev {
   left: 2% !important;
-  top: 47.5% !important;
+  top: 44% !important;
   width: 40px !important;
   height: 40px !important;
   z-index: 10;
@@ -51,7 +51,7 @@ li.slick-active button:before {
 
 .slick-next {
   right: 2% !important;
-  top: 47.5% !important;
+  top: 44% !important;
   width: 40px !important;
   height: 40px !important;
   z-index: 10;
@@ -120,7 +120,6 @@ button {
   font-size: 40px !important;
   color: black !important; */
 
-
   content: "" !important;
   display: inline-block !important;
   width: 40px !important;
@@ -129,5 +128,11 @@ button {
   background-size: contain !important;
   margin-left: 40% !important;
   background-repeat: no-repeat;
+}
 
+@media (min-width: 992px) and (max-width: 90000px){
+  .main-slider {
+    width: 96.8%;
+    height: 460px;
+  }
 }
